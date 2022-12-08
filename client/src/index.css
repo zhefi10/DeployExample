@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #777777;
+}
+
+code {
+  font-family: sans-serif;
+}
+.bg-gn{
+  background-color: rgb(21, 48, 121);
+}
+
+.card-container{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.nav-bar-gn{
+  display: flex;
+  --bs-gutter-x: 1.5rem; 
+  --bs-gutter-y: 0;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-header{
+  font-size: 2em;
+}
+
+.user-data{
+  background-color: rgb(207, 207, 207);
+  margin-left: auto;
+  margin-right: auto;
+  max-width:fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.active-link{
+  color: red;
+}
+
+.navbar-nav{
+  --bs-nav-link-hover-color: rgb(0, 255, 251);
+}
+.navbar-brand{
+  --bs-navbar-brand-hover-color: rgb(0, 255, 251);
+}
+.message-w{
+  color: green;
+}
+.message-d{
+  color: yellow;
+}
+
+.align-right{
+  text-align: right;
+  margin-right: 10px;
+}
